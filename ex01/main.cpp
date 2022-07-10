@@ -25,7 +25,7 @@ int main( void )
         std::cout << "===========================================" << std::endl << std::endl;
     }
     {
-        std::cout << "================ Int Array ================" << std::endl;
+        std::cout << "================ Char Array ===============" << std::endl;
 
         char lCharArray[] = { 'A', 'c', 'X', 'j', 'R', 'k' };
 
@@ -54,23 +54,6 @@ int main( void )
 
         for ( int i = 0; i < 6; i++ )
             std::cout << lFloatArray[ i ] << " ";
-        std::cout << std::endl;
-
-        std::cout << "===========================================" << std::endl << std::endl;
-    }
-    {
-        std::cout << "================ Str Array ================" << std::endl;
-
-        std::string lStrArray[] = { "One", "Two", "Three", "Four", "Five", "Six" };
-
-        for ( int i = 0; i < 6; i++ )
-            std::cout << lStrArray[ i ] << " ";
-        std::cout << std::endl;
-
-        ::iter( lStrArray, 6, ::increment );
-
-        for ( int i = 0; i < 6; i++ )
-            std::cout << lStrArray[ i ] << " ";
         std::cout << std::endl;
 
         std::cout << "===========================================" << std::endl << std::endl;
