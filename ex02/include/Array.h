@@ -48,7 +48,7 @@ public:
 
         if ( mSize ) delete[] mpArray;
 
-        mSize = prArray.size();
+        mSize = prArray.mSize;
         mpArray = new T[ mSize ];
 
         for ( unsigned int i = 0; i < mSize; i++ )
